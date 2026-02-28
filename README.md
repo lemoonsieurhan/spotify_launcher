@@ -27,7 +27,14 @@ Launcher Spotify pour windows permettant de lancer ses playlists rapidement avec
 	python -m pip install --upgrade pip
 	python -m pip install -r requirements.txt
 	```
-4. **Créer un fichier `.env`**
+4. **Configurer l’application Spotify**
+	- Rendez-vous sur : https://developer.spotify.com/dashboard
+	- Créez une nouvelle application.
+	- Ajoutez la **Redirect URI** : `http://localhost:8888/callback`.
+	- Récupérez le `CLIENT_ID` et le `CLIENT_SECRET`.
+
+---
+5. **Créer un fichier `.env`**
 	À la racine du projet, créez un fichier `.env` contenant :
 	```env
 	CLIENT_ID=ton_client_id
@@ -35,13 +42,6 @@ Launcher Spotify pour windows permettant de lancer ses playlists rapidement avec
 	REDIRECT_URI=http://localhost:8888/callback
 	```
 	Remplacez `ton_client_id` et `ton_client_secret` par vos valeurs obtenues sur le [Spotify Developer Dashboard](https://developer.spotify.com/dashboard).
-5. **Configurer l’application Spotify**
-	- Rendez-vous sur : https://developer.spotify.com/dashboard
-	- Créez une nouvelle application.
-	- Ajoutez la **Redirect URI** : `http://localhost:8888/callback`.
-	- Récupérez le `CLIENT_ID` et le `CLIENT_SECRET`.
-
----
 
 ### Lancement
 
