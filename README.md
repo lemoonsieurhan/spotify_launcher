@@ -1,10 +1,6 @@
 ## spotify_launcher
 Launcher Spotify pour windows permettant de lancer ses playlists rapidement avec un raccourci clavier.
 
-## Spotify Playlist Launcher (Windows)
-
-Petit lanceur inspiré de rofi pour ouvrir rapidement vos playlists Spotify via un raccourci clavier sous Windows.
-
 ---
 
 ###  Fonctionnalités
