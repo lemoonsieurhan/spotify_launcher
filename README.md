@@ -1,5 +1,5 @@
 ## spotify_launcher
-Launcher Windows pour Spotify permettant de lancer ses playlists rapidement avec un raccourci clavier.
+Launcher Spotify pour windows permettant de lancer ses playlists rapidement avec un raccourci clavier.
 
 ## Spotify Playlist Launcher (Windows)
 
