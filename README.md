@@ -33,7 +33,6 @@ Launcher Spotify pour windows permettant de lancer ses playlists rapidement avec
 	- Ajoutez la **Redirect URI** : `http://localhost:8888/callback`.
 	- Récupérez le `CLIENT_ID` et le `CLIENT_SECRET`.
 
----
 5. **Créer un fichier `.env`**
 	À la racine du projet, créez un fichier `.env` contenant :
 	```env
